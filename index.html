@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title>Document</title>
+</head>
+<body>
+  <div id="quiz-start" class="start">
+    <h1>Coding Quiz</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolorum fugiat earum cum, atque, eius quae, natus optio molestias iste et? Vel eveniet accusamus atque at consequuntur, consequatur quis mollitia.</p>
+  </div>
+  <section class="start-button">  
+    <button id="button-start">Start Quiz</button>
+  </section>
+
+
+  <div id="timer">
+    
+  </div>
+
+<div id="quesiton-screen" class="hide">
+  <div class="question-container">
+    <h2 id="question">Question</h2>
+    <button class="btn" id="a1">answer</button>
+    <button class="btn" id="a2">answer</button>
+    <button class="btn" id="a3">answer</button>
+    <button class="btn" id="a4">answer</button>
+  </div>
+</div>
+
+  <!-- end of quiz -->
+<div id="quiz-end" class="hide">
+  <h2>Quiz Complete!</h2>
+  <p>Your final score is <span id="final-score">__</span>.</p>
+  <label for="player-initials">Please type your initials</label>
+  <input type="text" name="player initials" id="player-initials">
+  <button id="initials-submit-button">Submit</button>
+</div>
+  <script src="./assets/logic/script.js"></script>
+</body>
+</html>
