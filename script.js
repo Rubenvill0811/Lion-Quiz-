@@ -34,35 +34,39 @@ function timer() {
 const questions = [
     {
         question1: "What is a unique feature of a Lion?",
-        a: "its tongue",
-        b: "its trunk",
-        c: "its hind legs",
-        d: "its mane",
-        correctAnswer: "d"
+        answers: [
+            {text: 'its tongue', correct: false },
+            {text: 'its trunk', correct: false },
+            {text: 'its hind legs', correct: false },
+            {text: 'its mane', correct: true },
+        ]
     },
     {
         question2: "What is the Lion's native continent?",
-        a: "North America",
-        b: "South America",
-        c: "Africa",
-        d: "Europe",
-        correctAnswer: "c"
+        answers: [
+            {text: 'North America', correct: false },
+            {text: 'South America', correct: false },
+            {text: 'Africa', correct: true },
+            {text: 'Europe', correct: false },
+        ]
     },
     {
         question3: "What is a Lion's top speed?",
-        a: "50mph",
-        b: "25mph",
-        c: "30mph",
-        d: "35mph",
-        correctAnswer: "a"
+        answers: [
+            {text: '50mph', correct: true },
+            {text: '25mph', correct: false },
+            {text: '30mph', correct: false },
+            {text: '35mph', correct: false },
+        ]
     },
     {
         question4: "What is a Lion's favorite pastime?",
-        a: "trash talking zebras",
-        b: "racing with other Lions",
-        c: "flirting with a lioness",
-        d: "relaxing and lazing around",
-        correctAnswer: "d"
+        answers: [
+            {text: 'trash talking zebras', correct: false },
+            {text: 'racing with other Lions', correct: false },
+            {text: 'flirting with a lioness', correct: false },
+            {text: 'relaxing and lazing around', correct: true },
+        ]
     }
 ];
 
